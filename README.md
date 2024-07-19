@@ -33,7 +33,7 @@ gcta64 --grm grm-gcta --pheno pheno.phen --reml --out test --mpheno 2 --gxe fixe
 
 ## 04 - RG - Genetic correlation  
 
-To estimate the genetic correlation between two traits that describes the genetic relationship between two traits and can contribute to a better understanding of the shared biological pathways and/or the causality relationships between them (van Rheeenen et al)[https://www.nature.com/articles/s41576-019-0137-z]
+To estimate the genetic correlation between two traits that describes the genetic relationship between two traits and can contribute to a better understanding of the shared biological pathways and/or the causality relationships between them [van Rheeenen et al](https://www.nature.com/articles/s41576-019-0137-z)
 
 ```{bash, eval = FALSE}
 gcta64 --grm grm-gcta --pheno pheno.phen --out test --reml-bivar 2 4
